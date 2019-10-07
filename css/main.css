@@ -106,8 +106,17 @@ body {
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
-  background-color: #00ffff
-  ;
+  background-color:black;
+  
+}
+
+ .intro {
+    color: white;
+    font-size: 3em;
+}
+.about {
+    color: white;
+    font-size: 1.5em;
 }
 
 .wrapper {
@@ -117,18 +126,29 @@ body {
   justify-content: space-between;
 }
 
+
+
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   
-  color: #DC143C;
+  color: white;
   line-height: 1.5em;
   font-size: 1em;
-  background-color: #DEB887;
+  background-color: black;
   height: 300px;
   display:flex;
   width: 30%;
   justify-content: center;
   align-items: center;
+} 
+.div-1, .div-2 {
+    border-right: .05em solid purple;
+}
+
+footer{
+    color: white;
+    font-size: 1em;
+    text-align: center;
 }
 
 
